@@ -1,4 +1,4 @@
-# hdmi-led-display
+# hdmi-led-monitor
 This is an FPGA design for the PYNQ-Z1 board that turns an HDMI input into a live display on addressable LED strips. It crops an 18 × 15 region from each incoming frame and streams those pixels over SPI to LED strips arranged in rows, forming a low-resolution monitor.
 
 ## Demo
