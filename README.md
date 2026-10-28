@@ -16,7 +16,7 @@ vivado -mode batch -source scripts/create_project.tcl
 vivado -mode batch -source scripts/build.tcl
 ```
 
-3. Program the device
+3. Program the device:
 ```sh
 vivado -mode batch -source scripts/program.tcl
 ```
